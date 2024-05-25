@@ -16,7 +16,7 @@ console.log(id);
 console.log(anotherId);
 
 
-console.log(id === anotherId);
+// console.log(id === anotherId);
 
 const bigNumber = 218631236845247895452014452235n
 
@@ -35,4 +35,31 @@ const myFunction = function(){
     console.log("Hello World");
 }
 
-console.log(typeof myObj)
+// console.log(typeof myObj)
+
+
+// **************************************************
+
+/*                              NOTE
+    Stack (Primitive), Heap (Non-Primitive): Primitive data type stored into
+    stacks & Non-Primitive data types stored into heaps. */
+
+let myYoutubename = "Swayan"
+
+let anotherName = myYoutubename
+anotherName = "SwayanSarkar"
+
+console.log(myYoutubename);
+console.log(anotherName);
+
+let userOne = {
+    email : "user@google.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "user@yahoo.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
